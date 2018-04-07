@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <style>
+  *{
+    padding: 0;margin: 0;
+  }
+  a, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+}
+  .epics-nav-wrap {
+    background: #176399;
+  }
+  .epics-nav-sec {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .epics-logo-wrap{
+    display: inline-block;
+  }
+  .epics-logo {
+    width: 197px;
+    height: 36px;
+    margin: 17px 0;
+    background-size: 197px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('https://freshservice.com/assets/images/common/company/logos/logo-fservice-white-c133664a.svg');
+  }
+  .epic-nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+  .epic-nav-main-menu {
+    position: static;
+    display: inline-block;
+    opacity: 1;
+    pointer-events: all;
+    z-index: 200;
+    float: right;
+    margin-top: 15px;
+    width: auto;
+  }
+  .nav-item {
+    display: inline-block;
+    background-color: transparent;
+    border-bottom: none;
+    position: relative;
+    cursor: pointer;
+    vertical-align: top;
+    overflow-x: visible;
+    padding: 13px 20px;
+    color: #fff;
+  }
+  .epics-nav-btn {
+    background: #08c7fb;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-top: 3px;
+  }
+  .epics-sub-nav {
+    display: block;
+    position: absolute;
+    width: auto;
+    min-width: 120px;
+    max-height: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    opacity: 1;
+    overflow: hidden;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nav-sub-item{
+    padding: 10px 20px;
+  }
+  .nav-sub-item a.nav-sub-label {
+    color: #000;
+  }
+  </style>
+  <body>
+    <nav>
+      <div class="epics-nav-wrap">
+        <div class="epics-nav-sec">
+          <div class="epics-logo-wrap">
+            <a class="epics-logo" href="/"></a>
+          </div>
+          <ul class="epic-nav-list epic-nav-main-menu">
+            <li class="nav-item">
+              <span class="epic-nav-label">Features</span>
+              <i></i>
+              <ul class="epic-nav-list epics-sub-nav">
+                <li class="nav-sub-item">
+                  <a href="/" class="nav-sub-label">features1</a>
+                </li>
+                <li class="nav-sub-item">
+                  <a href="/" class="nav-sub-label">features1</a>
+                </li>
+                <li class="nav-sub-item">
+                  <a href="/" class="nav-sub-label">features1</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="epic-nav-label">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="epic-nav-label">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="/" class="epic-nav-label epics-nav-btn">Features</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
